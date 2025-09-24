@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="LACCODEV Impact & Stories - Gallery, success stories, and donor reports.">
+  <title>Impact & Stories | LACCODEV</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <a href="index.html" class="logo">LACCODEV</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Our Work</a></li>
+        <li><a href="impact.html" class="active">Impact & Stories</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <h1>Impact & Stories</h1>
+  </header>
+
+  <!-- Gallery -->
+  <section class="gallery-section container animate-fade-in">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-grid" id="galleryGrid">
+      <img src="images/gallery1.jpg" alt="Activity 1" class="gallery-img">
+      <img src="images/gallery2.jpg" alt="Activity 2" class="gallery-img">
+      <img src="images/gallery3.jpg" alt="Activity 3" class="gallery-img">
+      <img src="images/gallery4.jpg" alt="Activity 4" class="gallery-img">
+      <img src="images/gallery5.jpg" alt="Activity 5" class="gallery-img">
+      <img src="images/gallery6.jpg" alt="Activity 6" class="gallery-img">
+    </div>
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal">
+      <span class="close-lightbox" id="closeLightbox">&times;</span>
+      <img class="lightbox-content" id="lightboxImg" alt="">
+      <div id="lightboxCaption"></div>
+    </div>
+  </section>
+
+  <!-- Success Stories / Blog -->
+  <section class="stories-section container animate-slide-up">
+    <h2>Success Stories</h2>
+    <div class="stories-grid">
+      <article class="story-card animate-pop">
+        <h3>From Struggle to Scholar</h3>
+        <p>Mary, a primary student, found her love for reading at our resource hub. Today, she leads her class in literacy and dreams of becoming a teacher.</p>
+      </article>
+      <article class="story-card animate-pop">
+        <h3>Empowering Teachers</h3>
+        <p>Mr. Okello, a rural teacher, shares how LACCODEV's training transformed his classroom and inspired his students to excel.</p>
+      </article>
+      <article class="story-card animate-pop">
+        <h3>Community Transformation</h3>
+        <p>Through advocacy and engagement, parents in Amach now actively support their children's education and school development.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Reports (Password Protected) -->
+  <section class="reports-section container animate-fade-in">
+    <h2>Donor Reports</h2>
+    <form id="reportLoginForm" class="report-login-form">
+      <label for="reportPassword">Enter password to access reports:</label>
+      <input type="password" id="reportPassword" required>
+      <button type="submit" class="btn btn-secondary">Access Reports</button>
+      <span id="reportError" class="report-error"></span>
+    </form>
+    <div id="reportsContent" class="reports-content" style="display:none;">
+      <ul>
+        <li><a href="reports/annual-report-2024.pdf" target="_blank">Annual Report 2024</a></li>
+        <li><a href="reports/financials-2024.pdf" target="_blank">Financial Statement 2024</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div>
+        <strong>LACCODEV</strong> &copy; 2025. All rights reserved.
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Get Involved with LACCODEV - Donate, volunteer, partner, or support our wishlist.">
+  <title>Get Involved | LACCODEV</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <a href="index.html" class="logo">LACCODEV</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Our Work</a></li>
+        <li><a href="impact.html">Impact & Stories</a></li>
+        <li><a href="get-involved.html" class="active">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <h1>Get Involved</h1>
+  </header>
+
+  <!-- Donation Section -->
+  <section class="donate-section container animate-fade-in" id="donate">
+    <h2>Donate</h2>
+    <p>Your support changes lives! Choose a one-time or monthly donation:</p>
+    <div class="donate-options">
+      <button class="btn btn-accent donate-btn" data-amount="25">$25</button>
+      <button class="btn btn-accent donate-btn" data-amount="50">$50</button>
+      <button class="btn btn-accent donate-btn" data-amount="100">$100</button>
+      <button class="btn btn-accent donate-btn" data-amount="other">Other</button>
+    </div>
+    <form id="donateForm" class="donate-form">
+      <input type="number" id="donateAmount" placeholder="Enter amount (USD)" min="1" required>
+      <select id="donateFrequency">
+        <option value="one-time">One-Time</option>
+        <option value="monthly">Monthly</option>
+      </select>
+      <button type="submit" class="btn btn-secondary">Donate Securely</button>
+    </form>
+    <div class="donate-impact">
+      <p><strong>$25</strong> provides a student with a year's worth of scholastic materials.</p>
+      <p><strong>$50</strong> equips a classroom with new books.</p>
+      <p><strong>$100</strong> supports a teacher's professional development.</p>
+    </div>
+  </section>
+
+  <!-- Volunteer Section -->
+  <section class="volunteer-section container animate-slide-up" id="volunteer">
+    <h2>Volunteer</h2>
+    <p>Share your skills and passion! Fill out the form below to express your interest.</p>
+    <form id="volunteerForm" class="volunteer-form">
+      <input type="text" id="volName" placeholder="Your Name" required>
+      <input type="email" id="volEmail" placeholder="Your Email" required>
+      <input type="text" id="volSkills" placeholder="Your Skills/Expertise" required>
+      <textarea id="volMessage" placeholder="Why do you want to volunteer?" required></textarea>
+      <button type="submit" class="btn btn-secondary">Submit</button>
+      <span id="volunteerSuccess" class="form-success"></span>
+    </form>
+  </section>
+
+  <!-- Partnership Section -->
+  <section class="partner-section container animate-fade-in">
+    <h2>Partner With Us</h2>
+    <p>
+      We welcome partnerships with NGOs, institutions, and donors. Contact us to explore collaboration opportunities for greater impact.
+    </p>
+    <a href="contact.html" class="btn btn-accent">Contact Us</a>
+  </section>
+
+  <!-- Wishlist Section -->
+  <section class="wishlist-section container animate-slide-up">
+    <h2>Wishlist</h2>
+    <ul class="wishlist-list">
+      <li>Grade 5 Science Textbooks</li>
+      <li>Geometry Sets</li>
+      <li>Children's Storybooks (Luo & English)</li>
+      <li>Computers/Tablets</li>
+      <li>Sports Equipment</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div>
+        <strong>LACCODEV</strong> &copy; 2025. All rights reserved.
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
