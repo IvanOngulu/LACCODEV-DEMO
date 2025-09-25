@@ -267,8 +267,6 @@ img { max-width: 100%; display: block; border-radius: 12px; }
   font-family: var(--heading);
   border-radius: 10px 10px 0 0;
 }
-.accordion-header:hover, .accordion-header.active {
-}
 .gallery-img:hover { transform: scale(1.05); box-shadow: 0 4px 16px rgba(46,139,87,0.18);}
 .lightbox-modal {
   display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100vw; height: 100vh;
@@ -351,4 +349,5 @@ img { max-width: 100%; display: block; border-radius: 12px; }
   .hero-content h1 { font-size: 1.3em;}
   .page-header h1 { font-size: 1.2em;}
   .container { padding: 0.5em; }
+
 }
